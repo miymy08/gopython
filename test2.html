@@ -1,0 +1,15 @@
+<html lang="en-US">
+  <title>Simple Range Input Slider With Output</title>
+  <div class="container">
+    <div class="slider">
+      <input id = "slider" onmouseup="mouseUp()" type="range" min="0" max="100" onchange="rangevalue.value=value"/>
+	 <output id="rangevalue">50</output>
+    </div>
+  </div>
+</html>
+
+<script>
+  function mouseUp() {
+    document.getElementById("slider").value = 50;
+  }
+</script>

@@ -1,0 +1,162 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*facebook button*/
+.f-sign-in-button {
+  margin: 5px;
+  display: inline-block;
+  width: 240px;
+  height: 50px;
+  background-color: dodgerblue;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+  transition: background-color .218s, border-color .218s, box-shadow .218s;
+}
+.f-sign-in-button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 3px 3px rgba(66,133,244,.3);
+  box-shadow: 0 0 3px 3px rgba(66,133,244,.3);
+}
+.f-sign-in-button:active {
+  background-color: #3367D6;
+  transition: background-color 0.2s;
+}
+.f-sign-in-button .content-wrapper {
+  height: 100%;
+  width: 100%;
+}
+.f-sign-in-button img {
+    width: 18px;
+    height: 18px;
+}
+.f-sign-in-button .logo-wrapper {
+   padding: 10px;
+   background:#fff;
+   width: 48px;
+   height: 100%;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-top: 3px solid dodgerblue;
+   border-bottom: 3px solid dodgerblue; 
+   display: inline-block;
+}
+.f-sign-in-button .text-container {
+    font-family: Roboto,arial,sans-serif;
+    font-weight: 500;
+    letter-spacing: .21px;
+    font-size: 16px;
+    line-height: 48px;
+    vertical-align: top;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    width: 180px;
+}
+
+/*google button*/
+.g-sign-in-button {
+  margin: 5px;
+  display: inline-block;
+  width: 240px;
+  height: 50px;
+  background-color: forestgreen;
+  color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+  transition: background-color .218s, border-color .218s, box-shadow .218s;
+  border-radius: 20px;
+}
+.g-sign-in-button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 3px 3px rgba(66,133,244,.3);
+  box-shadow: 0 0 3px 3px rgba(66,133,244,.3);
+}
+.g-sign-in-button:active {
+  background-color: darkgreen;
+  transition: background-color 0.2s;
+}
+.g-sign-in-button .content-wrapper {
+  height: 100%;
+  width: 100%;
+}
+.g-sign-in-button img {
+    width: 18px;
+    height: 18px;
+}
+.g-sign-in-button .logo-wrapper {
+   padding: 10px;
+   background:#fff;
+   width: 48px;
+   height: 100%;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-top: 3px solid forestgreen;
+   border-bottom: 3px solid forestgreen;
+   display: inline-block;
+}
+.g-sign-in-button .text-container {
+    font-family: Roboto,arial,sans-serif;
+    font-weight: 500;
+    letter-spacing: .21px;
+    font-size: 16px;
+    line-height: 48px;
+    vertical-align: top;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    width: 180px;
+}
+
+/*guest button*/
+.gu-sign-in-button {
+  margin: 5px;
+  display: inline-block;
+  width: 240px;
+  height: 50px;
+  background-color: grey;
+  color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+  transition: background-color .218s, border-color .218s, box-shadow .218s;
+  border-radius: 20px;
+}
+.gu-sign-in-button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 3px 3px rgba(66,133,244,.3);
+  box-shadow: 0 0 3px 3px rgba(66,133,244,.3);
+}
+.gu-sign-in-button:active {
+  background-color: dimgrey;
+  transition: background-color 0.2s;
+}
+.gu-sign-in-button .content-wrapper {
+  height: 100%;
+  width: 100%;
+}
+.gu-sign-in-button img {
+    width: 18px;
+    height: 18px;
+}
+.gu-sign-in-button .logo-wrapper {
+   padding: 10px;
+   background:#fff;
+   width: 48px;
+   height: 100%;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-top: 3px solid grey;
+   border-bottom: 3px solid grey;
+   display: inline-block;
+}
+.gu-sign-in-button .text-container {
+    font-family: Roboto,arial,sans-serif;
+    font-weight: 500;
+    letter-spacing: .21px;
+    font-size: 16px;
+    line-height: 48px;
+    vertical-align: top;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    width: 180px;
+}
